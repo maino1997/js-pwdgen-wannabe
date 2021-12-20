@@ -28,3 +28,9 @@ console.log(lastName);
 const favColor = prompt("Qual'è il tuo colore preferito?")
 console.log(favColor);
 
+// Stampare il risutato della stringa nella console
+const myString = `La tua password è ${firstName}${lastName}${favColor}21`;
+console.log(myString);
+
+// Iniettare contenuto stringa nella pagina
+result.innerText = myString;
