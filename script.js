@@ -6,6 +6,25 @@
 // colore in una variabile
 // stampa nella console per verificare
 // Prendere elemento HTML dalla pagina
+// assegnare all'elemento HTMl una variabile
+// stampare il risutato della stringa nella console
 // Iniettare contenuto stringa nella pagina
 
+
+console.log('JS ok');
+
+// Prendere elemento HTML dalla pagina
+const result = document.getElementById('password');
+
+// Chiedere Nome utente
+const firstName = prompt("Qual'è il tuo nome?");
+console.log(firstName);
+
+// Chiedere cognome utente
+const lastName = prompt("Qual'è il tuo cognome?");
+console.log(lastName);
+
+// Chiedere colore preferito
+const favColor = prompt("Qual'è il tuo colore preferito?")
+console.log(favColor);
 
