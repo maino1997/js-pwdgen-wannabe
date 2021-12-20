@@ -1,13 +1,20 @@
-// Chiedere Nome utente
-// nome in una variabile
-// Chiedere cognome utente
-// cognome in una variabile
-// Chiedere colore preferito
-// colore in una variabile
-// stampa nella console per verificare
 // Prendere elemento HTML dalla pagina
 // assegnare all'elemento HTMl una variabile
+
+// Chiedere Nome utente
+// nome in una variabile
+// stampa nome nella console per verificare
+
+// Chiedere cognome utente
+// cognome in una variabile
+// stampa cognome nella console per verificare
+
+// Chiedere colore preferito
+// colore in una variabile
+// stampa colore nella console per verificare
+
 // stampare il risutato della stringa nella console
+
 // Iniettare contenuto stringa nella pagina
 
 
@@ -29,8 +36,8 @@ const favColor = prompt("Qual'è il tuo colore preferito?")
 console.log(favColor);
 
 // Stampare il risutato della stringa nella console
-const myString = `La tua password è ${firstName}${lastName}${favColor}21`;
-console.log(myString);
+const randomPassword = `La tua password è ${firstName}${lastName}${favColor}21`;
+console.log(randomPassword);
 
 // Iniettare contenuto stringa nella pagina
-result.innerText = myString;
+result.innerText = randomPassword;
