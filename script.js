@@ -25,15 +25,15 @@ const result = document.getElementById('password');
 
 // Chiedere Nome utente
 const firstName = prompt("Qual'è il tuo nome?");
-console.log(firstName);
+console.log(`Il tuo nome è ${firstName}`);
 
 // Chiedere cognome utente
 const lastName = prompt("Qual'è il tuo cognome?");
-console.log(lastName);
+console.log(`Il tuo cognome è ${lastName}`);
 
 // Chiedere colore preferito
 const favColor = prompt("Qual'è il tuo colore preferito?")
-console.log(favColor);
+console.log(`IL tuo colore preferito è ${favColor}`);
 
 // Stampare il risutato della stringa nella console
 const randomPassword = `La tua password è ${firstName}${lastName}${favColor}21`;
